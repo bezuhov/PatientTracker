@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Patient Tracker</string>
+    <string name="service_already_running">Service is already running</string>
+    <string name="service_start_successfully">Service start successfully</string>
+    <string name="gps_enable">GPS enable</string>
+    <string name="please_turn_on_gps">Please turn on GPS</string>
+    <string name="ok">Ok</string>
+    <string name="facebook_app_id">931066467659014</string>
+    <string name="fb_login_protocol_scheme">fb931066467659014</string>
+    <string name="kayitsonadim">Birkaç bilgiye daha ihtiyacımız var.</string>
+    <string name="hintsocial">Takip edeceğiniz kişinin uygulama kodu       *opsiyonel</string>
+    <string name="today_tittle">Bugünün Hareket İstatistiği</string>
+    <string name="son_geli_meler">Son Gelişmeler</string>
+    <string name="yol_tarifi_al">Yol Tarifi Al</string>
+    <string name="ara">Ara</string>
+    <string name="hastadan_acil_durum_a_r_s_var">Hastadan acil durum çağrısı var!</string>
+    <string name="kapat">Kapat</string>
+    <string name="title_activity_hasta_alert">hastaAlert</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="channel_name">PatientTracker Kanalı</string>
+    <string name="channel_description">PatientTracker Mesajı</string>
+    <string name="PatientTrackerVasi">PatientTrackerVasi</string>
+    <string name="ho_geldiniz">Hoşgeldiniz</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="evet">Ekle</string>
+    <string name="hayır">Hayır</string>
+    <string name="durumunuzu_takip_edin">Durumunuzu takip edin</string>
+    <string name="a_klama">açıklama</string>
+    <string name="_20_20_2020">20/20/2020</string>
+
+
+</resources>

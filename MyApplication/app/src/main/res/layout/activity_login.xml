@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Login">
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="352dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/kenar_yesil"
+        android:ems="10"
+        android:fontFamily="@font/nunito"
+        android:hint="Email"
+        android:elevation="3dp"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/yazı"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv_label_login"
+        app:layout_constraintTop_toBottomOf="@+id/tv_label_login" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="352dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/kenar_yesil"
+        android:ems="10"
+        android:elevation="3dp"
+        android:padding="10dp"
+        android:fontFamily="@font/nunito"
+        android:hint="Sifre"
+        android:inputType="textPassword"
+        android:textColor="@color/yazı"
+        app:layout_constraintEnd_toEndOf="@+id/et_email"
+        app:layout_constraintStart_toStartOf="@+id/et_email"
+        app:layout_constraintTop_toBottomOf="@+id/et_email" />
+
+    <Button
+        android:id="@+id/bt_login"
+        android:layout_width="352dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/green_button"
+        android:fontFamily="@font/nunito"
+        android:text="Giris Yap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_password" />
+
+    <TextView
+        android:id="@+id/tv_forgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/nunito"
+        android:text="Sifremi Unuttum"
+        android:textColor="@color/yesil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_login" />
+
+    <TextView
+        android:id="@+id/tv_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:fontFamily="@font/nunito"
+        android:text="Kayit Ol"
+        android:textColor="@color/yesil"
+        android:textStyle="normal"
+        app:layout_constraintStart_toEndOf="@+id/tv_reginfo_login"
+        app:layout_constraintTop_toTopOf="@+id/tv_reginfo_login" />
+
+    <TextView
+        android:id="@+id/tv_tittle_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/nunito_extrabold"
+        android:text="Giriş Yap"
+        android:textColor="@color/yazi_baslik"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_info_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="67dp"
+        android:text="Sosyal hesapla giriş yap"
+        android:textColor="@color/yazı"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_tittle_login" />
+
+    <ImageButton
+        android:id="@+id/im_google_login"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_info_login"
+        app:srcCompat="@drawable/google" />
+
+    <TextView
+        android:id="@+id/tv_label_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/nunito"
+        android:text="Veya email ile giriş yap"
+        android:textColor="@color/yazı"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/im_google_login" />
+
+    <TextView
+        android:id="@+id/tv_reginfo_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/nunito"
+        android:text="Hesabınız yok mu?"
+        android:textColor="@color/yazı"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.408"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_forgot" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "135278674255",
+    "firebase_url": "https://nth-baton-315320-default-rtdb.firebaseio.com",
+    "project_id": "nth-baton-315320",
+    "storage_bucket": "nth-baton-315320.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135278674255:android:4cf30ddff91e0d948a453a",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135278674255-l9mrqfaceddgkf8ddmic01lsaibs9s00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5oT1EIrVGSL_SUkyaWqtnZEqDSG4AmcY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135278674255-l9mrqfaceddgkf8ddmic01lsaibs9s00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
